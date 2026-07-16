@@ -1,0 +1,2002 @@
+[
+  {
+    "date": "2026-07-15",
+    "open": 1640.9,
+    "close": 1640.1,
+    "high": 1653,
+    "low": 1637.1,
+    "volume": 2206,
+    "amount": 3629973,
+    "openInterest": 45920
+  },
+  {
+    "date": "2026-07-14",
+    "open": 1614.1,
+    "close": 1639.9,
+    "high": 1675,
+    "low": 1594.5,
+    "volume": 14336,
+    "amount": 23444456,
+    "openInterest": 46125
+  },
+  {
+    "date": "2026-07-13",
+    "open": 1630,
+    "close": 1612.1,
+    "high": 1641,
+    "low": 1600.1,
+    "volume": 12275,
+    "amount": 19900977,
+    "openInterest": 46615
+  },
+  {
+    "date": "2026-07-10",
+    "open": 1623.3,
+    "close": 1638.6,
+    "high": 1652.5,
+    "low": 1614.4,
+    "volume": 8179,
+    "amount": 13348122,
+    "openInterest": 46415
+  },
+  {
+    "date": "2026-07-09",
+    "open": 1587.9,
+    "close": 1622,
+    "high": 1642.1,
+    "low": 1584.9,
+    "volume": 10331,
+    "amount": 16771599,
+    "openInterest": 46472
+  },
+  {
+    "date": "2026-07-08",
+    "open": 1650.5,
+    "close": 1590.5,
+    "high": 1653,
+    "low": 1572.9,
+    "volume": 15928,
+    "amount": 25489159,
+    "openInterest": 46742
+  },
+  {
+    "date": "2026-07-07",
+    "open": 1643.2,
+    "close": 1649,
+    "high": 1673.5,
+    "low": 1613.1,
+    "volume": 12193,
+    "amount": 20124842,
+    "openInterest": 46950
+  },
+  {
+    "date": "2026-07-06",
+    "open": 1655,
+    "close": 1651.9,
+    "high": 1675.1,
+    "low": 1620.7,
+    "volume": 15583,
+    "amount": 25792223,
+    "openInterest": 47073
+  },
+  {
+    "date": "2026-07-03",
+    "open": 1634.1,
+    "close": 1651.9,
+    "high": 1675.1,
+    "low": 1630.4,
+    "volume": 5119,
+    "amount": 8506742,
+    "openInterest": 47075
+  },
+  {
+    "date": "2026-07-02",
+    "open": 1586.6,
+    "close": 1631.9,
+    "high": 1649,
+    "low": 1582.6,
+    "volume": 11907,
+    "amount": 19348056,
+    "openInterest": 46683
+  },
+  {
+    "date": "2026-07-01",
+    "open": 1560.1,
+    "close": 1586.6,
+    "high": 1619,
+    "low": 1539.6,
+    "volume": 13292,
+    "amount": 20994761,
+    "openInterest": 46999
+  },
+  {
+    "date": "2026-06-30",
+    "open": 1596.3,
+    "close": 1559.2,
+    "high": 1608.4,
+    "low": 1557.5,
+    "volume": 14368,
+    "amount": 22691938,
+    "openInterest": 46687
+  },
+  {
+    "date": "2026-06-29",
+    "open": 1632.8,
+    "close": 1592.9,
+    "high": 1646.2,
+    "low": 1579,
+    "volume": 12860,
+    "amount": 20626480,
+    "openInterest": 45720
+  },
+  {
+    "date": "2026-06-26",
+    "open": 1618.8,
+    "close": 1629.1,
+    "high": 1654.7,
+    "low": 1576.2,
+    "volume": 15541,
+    "amount": 25287357,
+    "openInterest": 42897
+  },
+  {
+    "date": "2026-06-25",
+    "open": 1589.7,
+    "close": 1597.8,
+    "high": 1612.9,
+    "low": 1547.7,
+    "volume": 13709,
+    "amount": 21776728,
+    "openInterest": 9852
+  },
+  {
+    "date": "2026-06-24",
+    "open": 1651,
+    "close": 1582.6,
+    "high": 1658.3,
+    "low": 1553.2,
+    "volume": 19537,
+    "amount": 31246676,
+    "openInterest": 13197
+  },
+  {
+    "date": "2026-06-23",
+    "open": 1682.5,
+    "close": 1652.9,
+    "high": 1682.6,
+    "low": 1621.1,
+    "volume": 18562,
+    "amount": 30568941,
+    "openInterest": 17971
+  },
+  {
+    "date": "2026-06-22",
+    "open": 1662.2,
+    "close": 1668.2,
+    "high": 1707.1,
+    "low": 1647,
+    "volume": 24063,
+    "amount": 40147053,
+    "openInterest": 23060
+  },
+  {
+    "date": "2026-06-19",
+    "open": 1701.9,
+    "close": 1668.2,
+    "high": 1701.9,
+    "low": 1647,
+    "volume": 7643,
+    "amount": 12755209,
+    "openInterest": 23060
+  },
+  {
+    "date": "2026-06-18",
+    "open": 1736.8,
+    "close": 1695.9,
+    "high": 1771.4,
+    "low": 1688.2,
+    "volume": 18199,
+    "amount": 31349504,
+    "openInterest": 25749
+  },
+  {
+    "date": "2026-06-17",
+    "open": 1806,
+    "close": 1737.2,
+    "high": 1824.8,
+    "low": 1721.6,
+    "volume": 17257,
+    "amount": 30792969,
+    "openInterest": 28792
+  },
+  {
+    "date": "2026-06-16",
+    "open": 1776.5,
+    "close": 1809.9,
+    "high": 1826,
+    "low": 1747.1,
+    "volume": 15896,
+    "amount": 28652609,
+    "openInterest": 29936
+  },
+  {
+    "date": "2026-06-15",
+    "open": 1730.6,
+    "close": 1774.2,
+    "high": 1824.2,
+    "low": 1730.6,
+    "volume": 16969,
+    "amount": 30317321,
+    "openInterest": 31018
+  },
+  {
+    "date": "2026-06-12",
+    "open": 1727.6,
+    "close": 1720.6,
+    "high": 1746.3,
+    "low": 1692,
+    "volume": 14861,
+    "amount": 25518604,
+    "openInterest": 31420
+  },
+  {
+    "date": "2026-06-11",
+    "open": 1660.4,
+    "close": 1724.8,
+    "high": 1733.3,
+    "low": 1641.3,
+    "volume": 20412,
+    "amount": 34323322,
+    "openInterest": 31761
+  },
+  {
+    "date": "2026-06-10",
+    "open": 1728.5,
+    "close": 1665.1,
+    "high": 1728.5,
+    "low": 1648.6,
+    "volume": 25260,
+    "amount": 42547316,
+    "openInterest": 34275
+  },
+  {
+    "date": "2026-06-09",
+    "open": 1758.9,
+    "close": 1725.5,
+    "high": 1785.2,
+    "low": 1700.9,
+    "volume": 19711,
+    "amount": 34327871,
+    "openInterest": 35963
+  },
+  {
+    "date": "2026-06-08",
+    "open": 1797.9,
+    "close": 1759.3,
+    "high": 1798.5,
+    "low": 1735,
+    "volume": 18592,
+    "amount": 32729759,
+    "openInterest": 38901
+  },
+  {
+    "date": "2026-06-05",
+    "open": 1898.1,
+    "close": 1777.4,
+    "high": 1907.1,
+    "low": 1770.5,
+    "volume": 23331,
+    "amount": 42835672,
+    "openInterest": 39438
+  },
+  {
+    "date": "2026-06-04",
+    "open": 1860.6,
+    "close": 1898.5,
+    "high": 1908.7,
+    "low": 1851.8,
+    "volume": 15200,
+    "amount": 28758836,
+    "openInterest": 43898
+  },
+  {
+    "date": "2026-06-03",
+    "open": 1941,
+    "close": 1862,
+    "high": 1946.4,
+    "low": 1857.9,
+    "volume": 18259,
+    "amount": 34665929,
+    "openInterest": 44127
+  },
+  {
+    "date": "2026-06-02",
+    "open": 1937.7,
+    "close": 1938.2,
+    "high": 1988.2,
+    "low": 1929.6,
+    "volume": 14911,
+    "amount": 29152037,
+    "openInterest": 43224
+  },
+  {
+    "date": "2026-06-01",
+    "open": 1929,
+    "close": 1933.1,
+    "high": 1956.6,
+    "low": 1913.4,
+    "volume": 13984,
+    "amount": 27076531,
+    "openInterest": 43792
+  },
+  {
+    "date": "2026-05-29",
+    "open": 1926.7,
+    "close": 1922.9,
+    "high": 1948,
+    "low": 1908.8,
+    "volume": 12788,
+    "amount": 24640761,
+    "openInterest": 44901
+  },
+  {
+    "date": "2026-05-28",
+    "open": 1933.4,
+    "close": 1926.6,
+    "high": 1941.6,
+    "low": 1870,
+    "volume": 18575,
+    "amount": 35353503,
+    "openInterest": 46185
+  },
+  {
+    "date": "2026-05-27",
+    "open": 1971.9,
+    "close": 1932.5,
+    "high": 1978,
+    "low": 1911.8,
+    "volume": 12748,
+    "amount": 24623966,
+    "openInterest": 46479
+  },
+  {
+    "date": "2026-05-26",
+    "open": 1940,
+    "close": 1970.8,
+    "high": 1984.5,
+    "low": 1939.9,
+    "volume": 15416,
+    "amount": 30225528,
+    "openInterest": 46841
+  },
+  {
+    "date": "2026-05-25",
+    "open": 1940,
+    "close": 1977.9,
+    "high": 1984.5,
+    "low": 1939.9,
+    "volume": 4564,
+    "amount": 9000173,
+    "openInterest": 46841
+  },
+  {
+    "date": "2026-05-22",
+    "open": 1980.2,
+    "close": 1931.4,
+    "high": 1981.2,
+    "low": 1914.5,
+    "volume": 13124,
+    "amount": 25493311,
+    "openInterest": 47068
+  },
+  {
+    "date": "2026-05-21",
+    "open": 1959,
+    "close": 1980.5,
+    "high": 1981.7,
+    "low": 1925,
+    "volume": 13687,
+    "amount": 26693704,
+    "openInterest": 48153
+  },
+  {
+    "date": "2026-05-20",
+    "open": 1928.3,
+    "close": 1959.8,
+    "high": 1968.7,
+    "low": 1910.8,
+    "volume": 11594,
+    "amount": 22544523,
+    "openInterest": 48594
+  },
+  {
+    "date": "2026-05-19",
+    "open": 1980.7,
+    "close": 1931.1,
+    "high": 2002.9,
+    "low": 1926.4,
+    "volume": 11839,
+    "amount": 23148586,
+    "openInterest": 49267
+  },
+  {
+    "date": "2026-05-18",
+    "open": 1980.1,
+    "close": 1988.8,
+    "high": 2000.8,
+    "low": 1955,
+    "volume": 13836,
+    "amount": 27375334,
+    "openInterest": 49536
+  },
+  {
+    "date": "2026-05-15",
+    "open": 2069.9,
+    "close": 1985.2,
+    "high": 2082.5,
+    "low": 1974.4,
+    "volume": 16835,
+    "amount": 33779715,
+    "openInterest": 50381
+  },
+  {
+    "date": "2026-05-14",
+    "open": 2169.9,
+    "close": 2069.7,
+    "high": 2181.6,
+    "low": 2064,
+    "volume": 15506,
+    "amount": 32768063,
+    "openInterest": 50273
+  },
+  {
+    "date": "2026-05-13",
+    "open": 2150,
+    "close": 2160.6,
+    "high": 2217.5,
+    "low": 2116.6,
+    "volume": 18772,
+    "amount": 40690334,
+    "openInterest": 49805
+  },
+  {
+    "date": "2026-05-12",
+    "open": 2153.4,
+    "close": 2147,
+    "high": 2167.8,
+    "low": 2075.7,
+    "volume": 15342,
+    "amount": 32460389,
+    "openInterest": 49564
+  },
+  {
+    "date": "2026-05-11",
+    "open": 2059.4,
+    "close": 2153.4,
+    "high": 2154.6,
+    "low": 2036.1,
+    "volume": 15703,
+    "amount": 33057028,
+    "openInterest": 49258
+  },
+  {
+    "date": "2026-05-08",
+    "open": 2031.1,
+    "close": 2069.3,
+    "high": 2073.9,
+    "low": 2025.4,
+    "volume": 8955,
+    "amount": 18394130,
+    "openInterest": 48765
+  },
+  {
+    "date": "2026-05-07",
+    "open": 2069.2,
+    "close": 2032.6,
+    "high": 2113.6,
+    "low": 2032.4,
+    "volume": 14478,
+    "amount": 30089275,
+    "openInterest": 49077
+  },
+  {
+    "date": "2026-05-06",
+    "open": 1970.8,
+    "close": 2076.7,
+    "high": 2079.9,
+    "low": 1961.8,
+    "volume": 16503,
+    "amount": 33633588,
+    "openInterest": 48583
+  },
+  {
+    "date": "2026-05-05",
+    "open": 1959.3,
+    "close": 1966.7,
+    "high": 2006.2,
+    "low": 1953,
+    "volume": 7030,
+    "amount": 13943729,
+    "openInterest": 48713
+  },
+  {
+    "date": "2026-05-04",
+    "open": 2012,
+    "close": 1955.9,
+    "high": 2026.1,
+    "low": 1940,
+    "volume": 9551,
+    "amount": 18861306,
+    "openInterest": 48702
+  },
+  {
+    "date": "2026-05-01",
+    "open": 1998.9,
+    "close": 2000.7,
+    "high": 2028.7,
+    "low": 1962.3,
+    "volume": 10186,
+    "amount": 20382479,
+    "openInterest": 48962
+  },
+  {
+    "date": "2026-04-30",
+    "open": 1884.5,
+    "close": 1995.8,
+    "high": 2001.1,
+    "low": 1882.7,
+    "volume": 14672,
+    "amount": 28699414,
+    "openInterest": 48631
+  },
+  {
+    "date": "2026-04-29",
+    "open": 1949,
+    "close": 1884.9,
+    "high": 1960.4,
+    "low": 1880.1,
+    "volume": 12981,
+    "amount": 24794291,
+    "openInterest": 48926
+  },
+  {
+    "date": "2026-04-28",
+    "open": 1987.8,
+    "close": 1949,
+    "high": 2012.5,
+    "low": 1917.4,
+    "volume": 12664,
+    "amount": 24776210,
+    "openInterest": 49143
+  },
+  {
+    "date": "2026-04-27",
+    "open": 2015.9,
+    "close": 1993.1,
+    "high": 2041.7,
+    "low": 1984.6,
+    "volume": 10536,
+    "amount": 21152486,
+    "openInterest": 49499
+  },
+  {
+    "date": "2026-04-24",
+    "open": 2011.5,
+    "close": 2021,
+    "high": 2034,
+    "low": 1968.3,
+    "volume": 11067,
+    "amount": 22195478,
+    "openInterest": 49828
+  },
+  {
+    "date": "2026-04-23",
+    "open": 2093,
+    "close": 2017.7,
+    "high": 2095.9,
+    "low": 2003.8,
+    "volume": 11730,
+    "amount": 23911131,
+    "openInterest": 49482
+  },
+  {
+    "date": "2026-04-22",
+    "open": 2035.3,
+    "close": 2087.7,
+    "high": 2106.7,
+    "low": 2033.1,
+    "volume": 8810,
+    "amount": 18373312,
+    "openInterest": 49619
+  },
+  {
+    "date": "2026-04-21",
+    "open": 2100,
+    "close": 2045.5,
+    "high": 2108.5,
+    "low": 2017.2,
+    "volume": 10671,
+    "amount": 22071788,
+    "openInterest": 49923
+  },
+  {
+    "date": "2026-04-20",
+    "open": 2104.2,
+    "close": 2096.9,
+    "high": 2113.4,
+    "low": 2064.3,
+    "volume": 9396,
+    "amount": 19599701,
+    "openInterest": 49740
+  },
+  {
+    "date": "2026-04-17",
+    "open": 2090.1,
+    "close": 2114.4,
+    "high": 2170,
+    "low": 2074.2,
+    "volume": 11818,
+    "amount": 25096919,
+    "openInterest": 49011
+  },
+  {
+    "date": "2026-04-16",
+    "open": 2127.1,
+    "close": 2097.4,
+    "high": 2170.8,
+    "low": 2083.6,
+    "volume": 11955,
+    "amount": 25464662,
+    "openInterest": 48846
+  },
+  {
+    "date": "2026-04-15",
+    "open": 2119.9,
+    "close": 2121.1,
+    "high": 2156.4,
+    "low": 2105.4,
+    "volume": 12706,
+    "amount": 27054048,
+    "openInterest": 49652
+  },
+  {
+    "date": "2026-04-14",
+    "open": 2086,
+    "close": 2117.1,
+    "high": 2120,
+    "low": 2074.4,
+    "volume": 11390,
+    "amount": 23899626,
+    "openInterest": 49525
+  },
+  {
+    "date": "2026-04-13",
+    "open": 2051.1,
+    "close": 2087.7,
+    "high": 2087.8,
+    "low": 1983,
+    "volume": 10115,
+    "amount": 20704591,
+    "openInterest": 49501
+  },
+  {
+    "date": "2026-04-10",
+    "open": 2115.4,
+    "close": 2055.3,
+    "high": 2122.8,
+    "low": 2050.7,
+    "volume": 12006,
+    "amount": 24890463,
+    "openInterest": 48989
+  },
+  {
+    "date": "2026-04-09",
+    "open": 2059.1,
+    "close": 2115.5,
+    "high": 2133.6,
+    "low": 2007.4,
+    "volume": 14608,
+    "amount": 30269769,
+    "openInterest": 48952
+  },
+  {
+    "date": "2026-04-08",
+    "open": 1970,
+    "close": 2046.5,
+    "high": 2105,
+    "low": 1966.7,
+    "volume": 21538,
+    "amount": 44281769,
+    "openInterest": 48282
+  },
+  {
+    "date": "2026-04-07",
+    "open": 1990.1,
+    "close": 1966.7,
+    "high": 2000,
+    "low": 1909.4,
+    "volume": 12044,
+    "amount": 23500233,
+    "openInterest": 48337
+  },
+  {
+    "date": "2026-04-06",
+    "open": 2001,
+    "close": 1985.6,
+    "high": 2017,
+    "low": 1949.5,
+    "volume": 8924,
+    "amount": 17686972,
+    "openInterest": 48448
+  },
+  {
+    "date": "2026-04-02",
+    "open": 1970,
+    "close": 1999.9,
+    "high": 2008.2,
+    "low": 1875,
+    "volume": 17203,
+    "amount": 33422082,
+    "openInterest": 48722
+  },
+  {
+    "date": "2026-04-01",
+    "open": 1968.4,
+    "close": 1965.5,
+    "high": 1993.9,
+    "low": 1948.2,
+    "volume": 13486,
+    "amount": 26588859,
+    "openInterest": 48468
+  },
+  {
+    "date": "2026-03-31",
+    "open": 1893.9,
+    "close": 1962.3,
+    "high": 1974.3,
+    "low": 1872.9,
+    "volume": 12438,
+    "amount": 24037420,
+    "openInterest": 48439
+  },
+  {
+    "date": "2026-03-30",
+    "open": 1865,
+    "close": 1892.9,
+    "high": 1937.4,
+    "low": 1826.8,
+    "volume": 14833,
+    "amount": 28242097,
+    "openInterest": 46628
+  },
+  {
+    "date": "2026-03-27",
+    "open": 1837.5,
+    "close": 1866.4,
+    "high": 1907.6,
+    "low": 1807.5,
+    "volume": 20788,
+    "amount": 38695900,
+    "openInterest": 44497
+  },
+  {
+    "date": "2026-03-26",
+    "open": 1929.3,
+    "close": 1813.3,
+    "high": 1937.7,
+    "low": 1797,
+    "volume": 14636,
+    "amount": 27098496,
+    "openInterest": 11716
+  },
+  {
+    "date": "2026-03-25",
+    "open": 1911.7,
+    "close": 1910,
+    "high": 1990.6,
+    "low": 1908.1,
+    "volume": 19061,
+    "amount": 37151687,
+    "openInterest": 15221
+  },
+  {
+    "date": "2026-03-24",
+    "open": 1881.9,
+    "close": 1920.5,
+    "high": 1923.5,
+    "low": 1815.3,
+    "volume": 20067,
+    "amount": 37688944,
+    "openInterest": 19541
+  },
+  {
+    "date": "2026-03-23",
+    "open": 1910,
+    "close": 1874.4,
+    "high": 1939.8,
+    "low": 1703,
+    "volume": 35696,
+    "amount": 65430168,
+    "openInterest": 25060
+  },
+  {
+    "date": "2026-03-20",
+    "open": 1972.5,
+    "close": 1920.1,
+    "high": 2015.7,
+    "low": 1914.7,
+    "volume": 20042,
+    "amount": 39423694,
+    "openInterest": 26925
+  },
+  {
+    "date": "2026-03-19",
+    "open": 2024.4,
+    "close": 1968.9,
+    "high": 2051,
+    "low": 1858.7,
+    "volume": 34571,
+    "amount": 67047059,
+    "openInterest": 29718
+  },
+  {
+    "date": "2026-03-18",
+    "open": 2119.1,
+    "close": 2019.1,
+    "high": 2142.6,
+    "low": 2005,
+    "volume": 19038,
+    "amount": 39284857,
+    "openInterest": 31292
+  },
+  {
+    "date": "2026-03-17",
+    "open": 2113.7,
+    "close": 2123.3,
+    "high": 2165,
+    "low": 2080.6,
+    "volume": 17239,
+    "amount": 36782301,
+    "openInterest": 33003
+  },
+  {
+    "date": "2026-03-16",
+    "open": 2024.9,
+    "close": 2113.2,
+    "high": 2124.2,
+    "low": 2001.1,
+    "volume": 21715,
+    "amount": 44965325,
+    "openInterest": 34868
+  },
+  {
+    "date": "2026-03-13",
+    "open": 2128,
+    "close": 2024.5,
+    "high": 2166.9,
+    "low": 2016.1,
+    "volume": 26390,
+    "amount": 54608912,
+    "openInterest": 37397
+  },
+  {
+    "date": "2026-03-12",
+    "open": 2174.6,
+    "close": 2130.7,
+    "high": 2202.1,
+    "low": 2120.3,
+    "volume": 15639,
+    "amount": 33822875,
+    "openInterest": 38816
+  },
+  {
+    "date": "2026-03-11",
+    "open": 2208.1,
+    "close": 2173.2,
+    "high": 2236.3,
+    "low": 2162.6,
+    "volume": 15228,
+    "amount": 33385503,
+    "openInterest": 40050
+  },
+  {
+    "date": "2026-03-10",
+    "open": 2190.6,
+    "close": 2208,
+    "high": 2245.7,
+    "low": 2155,
+    "volume": 19204,
+    "amount": 42536124,
+    "openInterest": 40955
+  },
+  {
+    "date": "2026-03-09",
+    "open": 2136,
+    "close": 2189.2,
+    "high": 2195,
+    "low": 2016.6,
+    "volume": 21068,
+    "amount": 44645096,
+    "openInterest": 42762
+  },
+  {
+    "date": "2026-03-06",
+    "open": 2137.8,
+    "close": 2151.8,
+    "high": 2176.1,
+    "low": 2089.1,
+    "volume": 15842,
+    "amount": 33798055,
+    "openInterest": 44632
+  },
+  {
+    "date": "2026-03-05",
+    "open": 2165.8,
+    "close": 2128.2,
+    "high": 2223.5,
+    "low": 2102.6,
+    "volume": 17854,
+    "amount": 38463252,
+    "openInterest": 46490
+  },
+  {
+    "date": "2026-03-04",
+    "open": 2082.6,
+    "close": 2165.8,
+    "high": 2199.8,
+    "low": 2082.6,
+    "volume": 19060,
+    "amount": 41066249,
+    "openInterest": 47764
+  },
+  {
+    "date": "2026-03-03",
+    "open": 2321.3,
+    "close": 2089.7,
+    "high": 2352,
+    "low": 2011,
+    "volume": 37305,
+    "amount": 79314549,
+    "openInterest": 49788
+  },
+  {
+    "date": "2026-03-02",
+    "open": 2404.8,
+    "close": 2318.6,
+    "high": 2450.2,
+    "low": 2263,
+    "volume": 22974,
+    "amount": 54052939,
+    "openInterest": 50204
+  },
+  {
+    "date": "2026-02-27",
+    "open": 2281.6,
+    "close": 2376.2,
+    "high": 2419.9,
+    "low": 2258.3,
+    "volume": 24804,
+    "amount": 58910192,
+    "openInterest": 49365
+  },
+  {
+    "date": "2026-02-26",
+    "open": 2286.1,
+    "close": 2285.4,
+    "high": 2331.9,
+    "low": 2210.5,
+    "volume": 20940,
+    "amount": 47453066,
+    "openInterest": 50860
+  },
+  {
+    "date": "2026-02-25",
+    "open": 2180.1,
+    "close": 2290,
+    "high": 2361.2,
+    "low": 2164,
+    "volume": 25985,
+    "amount": 59888907,
+    "openInterest": 52348
+  },
+  {
+    "date": "2026-02-24",
+    "open": 2178.8,
+    "close": 2178.6,
+    "high": 2215.9,
+    "low": 2103.4,
+    "volume": 18254,
+    "amount": 39525295,
+    "openInterest": 51840
+  },
+  {
+    "date": "2026-02-23",
+    "open": 2168.7,
+    "close": 2165.7,
+    "high": 2221.9,
+    "low": 2118.7,
+    "volume": 18733,
+    "amount": 40564636,
+    "openInterest": 52594
+  },
+  {
+    "date": "2026-02-20",
+    "open": 2088.5,
+    "close": 2171.4,
+    "high": 2183,
+    "low": 2060.1,
+    "volume": 16109,
+    "amount": 34595937,
+    "openInterest": 53048
+  },
+  {
+    "date": "2026-02-19",
+    "open": 2095.9,
+    "close": 2085.9,
+    "high": 2123.7,
+    "low": 2052.9,
+    "volume": 11858,
+    "amount": 24658709,
+    "openInterest": 53485
+  },
+  {
+    "date": "2026-02-18",
+    "open": 2026,
+    "close": 2087.8,
+    "high": 2125,
+    "low": 2011,
+    "volume": 13390,
+    "amount": 27964527,
+    "openInterest": 53548
+  },
+  {
+    "date": "2026-02-17",
+    "open": 2077,
+    "close": 2022.1,
+    "high": 2080.7,
+    "low": 1984.7,
+    "volume": 20774,
+    "amount": 42033703,
+    "openInterest": 53248
+  },
+  {
+    "date": "2026-02-16",
+    "open": 2077,
+    "close": 2050.2,
+    "high": 2080.7,
+    "low": 2016.5,
+    "volume": 4980,
+    "amount": 10189551,
+    "openInterest": 53251
+  },
+  {
+    "date": "2026-02-13",
+    "open": 2001.8,
+    "close": 2067.7,
+    "high": 2100,
+    "low": 1980.3,
+    "volume": 15957,
+    "amount": 32759801,
+    "openInterest": 53544
+  },
+  {
+    "date": "2026-02-12",
+    "open": 2129.3,
+    "close": 1998.8,
+    "high": 2149.9,
+    "low": 1990.8,
+    "volume": 17540,
+    "amount": 36341150,
+    "openInterest": 53395
+  },
+  {
+    "date": "2026-02-11",
+    "open": 2089.9,
+    "close": 2137.9,
+    "high": 2202,
+    "low": 2080.5,
+    "volume": 16286,
+    "amount": 35011521,
+    "openInterest": 53630
+  },
+  {
+    "date": "2026-02-10",
+    "open": 2132,
+    "close": 2088.5,
+    "high": 2136.8,
+    "low": 2065.6,
+    "volume": 11577,
+    "amount": 24304919,
+    "openInterest": 54162
+  },
+  {
+    "date": "2026-02-09",
+    "open": 2115.9,
+    "close": 2122.1,
+    "high": 2154,
+    "low": 2035,
+    "volume": 19412,
+    "amount": 40752131,
+    "openInterest": 54865
+  },
+  {
+    "date": "2026-02-06",
+    "open": 1984.8,
+    "close": 2097.4,
+    "high": 2113.3,
+    "low": 1806,
+    "volume": 27377,
+    "amount": 54040393,
+    "openInterest": 55657
+  },
+  {
+    "date": "2026-02-05",
+    "open": 2213.1,
+    "close": 1971,
+    "high": 2273.8,
+    "low": 1962,
+    "volume": 32167,
+    "amount": 66471192,
+    "openInterest": 57240
+  },
+  {
+    "date": "2026-02-04",
+    "open": 2211,
+    "close": 2225.2,
+    "high": 2325.8,
+    "low": 2152.4,
+    "volume": 17035,
+    "amount": 38345765,
+    "openInterest": 58090
+  },
+  {
+    "date": "2026-02-03",
+    "open": 2127.8,
+    "close": 2212.5,
+    "high": 2277.3,
+    "low": 2108.2,
+    "volume": 23784,
+    "amount": 52493841,
+    "openInterest": 58472
+  },
+  {
+    "date": "2026-02-02",
+    "open": 2187,
+    "close": 2118.7,
+    "high": 2187,
+    "low": 1882,
+    "volume": 31290,
+    "amount": 64761312,
+    "openInterest": 61438
+  },
+  {
+    "date": "2026-01-30",
+    "open": 2621.3,
+    "close": 2178.2,
+    "high": 2669.5,
+    "low": 1980.7,
+    "volume": 55465,
+    "amount": 126403302,
+    "openInterest": 64266
+  },
+  {
+    "date": "2026-01-29",
+    "open": 2712.8,
+    "close": 2636.9,
+    "high": 2816.6,
+    "low": 2489.2,
+    "volume": 40722,
+    "amount": 109335167,
+    "openInterest": 65090
+  },
+  {
+    "date": "2026-01-28",
+    "open": 2649,
+    "close": 2705.1,
+    "high": 2711.8,
+    "low": 2572,
+    "volume": 33463,
+    "amount": 88724467,
+    "openInterest": 65667
+  },
+  {
+    "date": "2026-01-27",
+    "open": 2606.2,
+    "close": 2645.1,
+    "high": 2755,
+    "low": 2512.5,
+    "volume": 42792,
+    "amount": 112165012,
+    "openInterest": 66462
+  },
+  {
+    "date": "2026-01-26",
+    "open": 2792.2,
+    "close": 2575.6,
+    "high": 2925,
+    "low": 2542,
+    "volume": 58423,
+    "amount": 163900834,
+    "openInterest": 67416
+  },
+  {
+    "date": "2026-01-23",
+    "open": 2627,
+    "close": 2773.2,
+    "high": 2776.1,
+    "low": 2596.7,
+    "volume": 37724,
+    "amount": 101517356,
+    "openInterest": 67179
+  },
+  {
+    "date": "2026-01-22",
+    "open": 2484.9,
+    "close": 2627.1,
+    "high": 2635.5,
+    "low": 2355.8,
+    "volume": 33963,
+    "amount": 85117373,
+    "openInterest": 66423
+  },
+  {
+    "date": "2026-01-21",
+    "open": 2480,
+    "close": 2478.8,
+    "high": 2548.8,
+    "low": 2415.5,
+    "volume": 41819,
+    "amount": 103882240,
+    "openInterest": 66764
+  },
+  {
+    "date": "2026-01-20",
+    "open": 2350,
+    "close": 2480,
+    "high": 2484.2,
+    "low": 2312.7,
+    "volume": 43433,
+    "amount": 104424729,
+    "openInterest": 65755
+  },
+  {
+    "date": "2026-01-19",
+    "open": 2351.7,
+    "close": 2381.6,
+    "high": 2394,
+    "low": 2346.3,
+    "volume": 10900,
+    "amount": 0,
+    "openInterest": 0
+  },
+  {
+    "date": "2026-01-16",
+    "open": 2409.3,
+    "close": 2342.9,
+    "high": 2430.5,
+    "low": 2253.1,
+    "volume": 28289,
+    "amount": 65739190,
+    "openInterest": 65949
+  },
+  {
+    "date": "2026-01-15",
+    "open": 2390.2,
+    "close": 2415.8,
+    "high": 2444.5,
+    "low": 2235.9,
+    "volume": 33266,
+    "amount": 78512067,
+    "openInterest": 66024
+  },
+  {
+    "date": "2026-01-14",
+    "open": 2342,
+    "close": 2402.7,
+    "high": 2463.5,
+    "low": 2342,
+    "volume": 30148,
+    "amount": 72634329,
+    "openInterest": 66754
+  },
+  {
+    "date": "2026-01-13",
+    "open": 2362,
+    "close": 2338,
+    "high": 2422.5,
+    "low": 2278,
+    "volume": 28583,
+    "amount": 67394050,
+    "openInterest": 67741
+  },
+  {
+    "date": "2026-01-12",
+    "open": 2299.9,
+    "close": 2361.3,
+    "high": 2408.7,
+    "low": 2286.9,
+    "volume": 26457,
+    "amount": 62683392,
+    "openInterest": 67002
+  },
+  {
+    "date": "2026-01-09",
+    "open": 2283,
+    "close": 2277.8,
+    "high": 2333.3,
+    "low": 2202,
+    "volume": 23428,
+    "amount": 53526499,
+    "openInterest": 67276
+  },
+  {
+    "date": "2026-01-08",
+    "open": 2290.4,
+    "close": 2282.6,
+    "high": 2331.4,
+    "low": 2165.7,
+    "volume": 30363,
+    "amount": 67983248,
+    "openInterest": 67874
+  },
+  {
+    "date": "2026-01-07",
+    "open": 2456,
+    "close": 2290.4,
+    "high": 2487.8,
+    "low": 2233.5,
+    "volume": 38134,
+    "amount": 88323088,
+    "openInterest": 68804
+  },
+  {
+    "date": "2026-01-06",
+    "open": 2286.1,
+    "close": 2456,
+    "high": 2464.4,
+    "low": 2232.7,
+    "volume": 34992,
+    "amount": 82845195,
+    "openInterest": 68226
+  },
+  {
+    "date": "2026-01-05",
+    "open": 2171.1,
+    "close": 2288,
+    "high": 2319.4,
+    "low": 2162.3,
+    "volume": 34313,
+    "amount": 76960471,
+    "openInterest": 68695
+  },
+  {
+    "date": "2026-01-02",
+    "open": 2070.1,
+    "close": 2161.8,
+    "high": 2195,
+    "low": 2070,
+    "volume": 24487,
+    "amount": 52529264,
+    "openInterest": 68851
+  },
+  {
+    "date": "2025-12-31",
+    "open": 2228.1,
+    "close": 2070,
+    "high": 2237.6,
+    "low": 1927.4,
+    "volume": 42363,
+    "amount": 86370919,
+    "openInterest": 71394
+  },
+  {
+    "date": "2025-12-30",
+    "open": 2148.5,
+    "close": 2220,
+    "high": 2283.5,
+    "low": 2080,
+    "volume": 42093,
+    "amount": 92977089,
+    "openInterest": 71898
+  },
+  {
+    "date": "2025-12-29",
+    "open": 2545.1,
+    "close": 2138.9,
+    "high": 2584.5,
+    "low": 2104,
+    "volume": 86877,
+    "amount": 201264547,
+    "openInterest": 73077
+  },
+  {
+    "date": "2025-12-26",
+    "open": 2293.2,
+    "close": 2513.9,
+    "high": 2517.4,
+    "low": 2293.2,
+    "volume": 42957,
+    "amount": 104372400,
+    "openInterest": 15785
+  },
+  {
+    "date": "2025-12-24",
+    "open": 2318.3,
+    "close": 2272.9,
+    "high": 2395.6,
+    "low": 2175.7,
+    "volume": 53241,
+    "amount": 122573915,
+    "openInterest": 18095
+  },
+  {
+    "date": "2025-12-23",
+    "open": 2148,
+    "close": 2320.1,
+    "high": 2323.8,
+    "low": 2123.7,
+    "volume": 68870,
+    "amount": 153717920,
+    "openInterest": 26831
+  },
+  {
+    "date": "2025-12-22",
+    "open": 2016.1,
+    "close": 2148.9,
+    "high": 2148.9,
+    "low": 2016,
+    "volume": 51149,
+    "amount": 107373038,
+    "openInterest": 32406
+  },
+  {
+    "date": "2025-12-19",
+    "open": 1953.1,
+    "close": 2016,
+    "high": 2024.5,
+    "low": 1917.7,
+    "volume": 41911,
+    "amount": 83004716,
+    "openInterest": 38196
+  },
+  {
+    "date": "2025-12-18",
+    "open": 1931.7,
+    "close": 1959.2,
+    "high": 1995.6,
+    "low": 1923,
+    "volume": 53268,
+    "amount": 104429485,
+    "openInterest": 43975
+  },
+  {
+    "date": "2025-12-17",
+    "open": 1874.2,
+    "close": 1931.5,
+    "high": 1962,
+    "low": 1868.9,
+    "volume": 50662,
+    "amount": 97713308,
+    "openInterest": 51116
+  },
+  {
+    "date": "2025-12-16",
+    "open": 1812.8,
+    "close": 1874.3,
+    "high": 1890,
+    "low": 1804.1,
+    "volume": 45866,
+    "amount": 85064276,
+    "openInterest": 54241
+  },
+  {
+    "date": "2025-12-15",
+    "open": 1764.3,
+    "close": 1815.9,
+    "high": 1837.5,
+    "low": 1740.4,
+    "volume": 49238,
+    "amount": 89023079,
+    "openInterest": 56422
+  },
+  {
+    "date": "2025-12-12",
+    "open": 1713,
+    "close": 1764.2,
+    "high": 1804.3,
+    "low": 1701.3,
+    "volume": 49689,
+    "amount": 87395423,
+    "openInterest": 56785
+  },
+  {
+    "date": "2025-12-11",
+    "open": 1674,
+    "close": 1713.9,
+    "high": 1724.5,
+    "low": 1665.4,
+    "volume": 35117,
+    "amount": 59633179,
+    "openInterest": 57773
+  },
+  {
+    "date": "2025-12-10",
+    "open": 1710.5,
+    "close": 1672.9,
+    "high": 1713.9,
+    "low": 1641.6,
+    "volume": 37803,
+    "amount": 63046750,
+    "openInterest": 59146
+  },
+  {
+    "date": "2025-12-09",
+    "open": 1663.4,
+    "close": 1708.1,
+    "high": 1713.2,
+    "low": 1644.1,
+    "volume": 30809,
+    "amount": 51847139,
+    "openInterest": 59418
+  },
+  {
+    "date": "2025-12-08",
+    "open": 1661.6,
+    "close": 1662,
+    "high": 1683,
+    "low": 1648.2,
+    "volume": 25630,
+    "amount": 42712015,
+    "openInterest": 60237
+  },
+  {
+    "date": "2025-12-05",
+    "open": 1663.4,
+    "close": 1655.1,
+    "high": 1678.8,
+    "low": 1643.3,
+    "volume": 24240,
+    "amount": 40276722,
+    "openInterest": 61853
+  },
+  {
+    "date": "2025-12-04",
+    "open": 1682.8,
+    "close": 1660.4,
+    "high": 1688,
+    "low": 1635.1,
+    "volume": 22277,
+    "amount": 36970496,
+    "openInterest": 63326
+  },
+  {
+    "date": "2025-12-03",
+    "open": 1656.4,
+    "close": 1683.5,
+    "high": 1686.2,
+    "low": 1641.4,
+    "volume": 28442,
+    "amount": 47219361,
+    "openInterest": 64436
+  },
+  {
+    "date": "2025-12-02",
+    "open": 1670.4,
+    "close": 1653.6,
+    "high": 1678.2,
+    "low": 1623,
+    "volume": 31751,
+    "amount": 52351032,
+    "openInterest": 65338
+  },
+  {
+    "date": "2025-12-01",
+    "open": 1685.4,
+    "close": 1671.2,
+    "high": 1736,
+    "low": 1663.1,
+    "volume": 37392,
+    "amount": 63422335,
+    "openInterest": 65112
+  },
+  {
+    "date": "2025-11-28",
+    "open": 1600.9,
+    "close": 1683.7,
+    "high": 1695.9,
+    "low": 1592.3,
+    "volume": 36490,
+    "amount": 59842292,
+    "openInterest": 64554
+  },
+  {
+    "date": "2025-11-27",
+    "open": 1600.9,
+    "close": 1627.9,
+    "high": 1649,
+    "low": 1592.3,
+    "volume": 23300,
+    "amount": 37881779,
+    "openInterest": 64562
+  },
+  {
+    "date": "2025-11-26",
+    "open": 1564.8,
+    "close": 1598.8,
+    "high": 1601.7,
+    "low": 1546.2,
+    "volume": 24681,
+    "amount": 38951231,
+    "openInterest": 65408
+  },
+  {
+    "date": "2025-11-25",
+    "open": 1561.1,
+    "close": 1565,
+    "high": 1578.7,
+    "low": 1540.5,
+    "volume": 24987,
+    "amount": 38994055,
+    "openInterest": 66671
+  },
+  {
+    "date": "2025-11-24",
+    "open": 1527,
+    "close": 1558.7,
+    "high": 1563.9,
+    "low": 1524.8,
+    "volume": 23239,
+    "amount": 35968801,
+    "openInterest": 68451
+  },
+  {
+    "date": "2025-11-21",
+    "open": 1517.6,
+    "close": 1523.4,
+    "high": 1542,
+    "low": 1489.2,
+    "volume": 29336,
+    "amount": 44493681,
+    "openInterest": 70090
+  },
+  {
+    "date": "2025-11-20",
+    "open": 1551.5,
+    "close": 1517.6,
+    "high": 1571.2,
+    "low": 1509.2,
+    "volume": 31231,
+    "amount": 48076987,
+    "openInterest": 70505
+  },
+  {
+    "date": "2025-11-19",
+    "open": 1546.2,
+    "close": 1550.3,
+    "high": 1591,
+    "low": 1540,
+    "volume": 24638,
+    "amount": 38515968,
+    "openInterest": 71269
+  },
+  {
+    "date": "2025-11-18",
+    "open": 1548,
+    "close": 1547.8,
+    "high": 1561,
+    "low": 1514.2,
+    "volume": 22499,
+    "amount": 34659364,
+    "openInterest": 71165
+  },
+  {
+    "date": "2025-11-17",
+    "open": 1559.2,
+    "close": 1547,
+    "high": 1572,
+    "low": 1531.7,
+    "volume": 19257,
+    "amount": 29910332,
+    "openInterest": 70886
+  },
+  {
+    "date": "2025-11-14",
+    "open": 1600.4,
+    "close": 1558.4,
+    "high": 1619.3,
+    "low": 1530.3,
+    "volume": 29719,
+    "amount": 46665345,
+    "openInterest": 71688
+  },
+  {
+    "date": "2025-11-13",
+    "open": 1632.8,
+    "close": 1597.8,
+    "high": 1666.4,
+    "low": 1583.1,
+    "volume": 28393,
+    "amount": 46226077,
+    "openInterest": 72185
+  },
+  {
+    "date": "2025-11-12",
+    "open": 1600.1,
+    "close": 1634.1,
+    "high": 1642.4,
+    "low": 1585.6,
+    "volume": 24835,
+    "amount": 40178717,
+    "openInterest": 70857
+  },
+  {
+    "date": "2025-11-11",
+    "open": 1595.5,
+    "close": 1599.2,
+    "high": 1622.6,
+    "low": 1581.6,
+    "volume": 18396,
+    "amount": 29469755,
+    "openInterest": 70372
+  },
+  {
+    "date": "2025-11-10",
+    "open": 1549.1,
+    "close": 1596.8,
+    "high": 1605.6,
+    "low": 1549.1,
+    "volume": 23985,
+    "amount": 38112313,
+    "openInterest": 68518
+  },
+  {
+    "date": "2025-11-07",
+    "open": 1540,
+    "close": 1554.6,
+    "high": 1569,
+    "low": 1528,
+    "volume": 18167,
+    "amount": 28222356,
+    "openInterest": 69241
+  },
+  {
+    "date": "2025-11-06",
+    "open": 1564.8,
+    "close": 1538,
+    "high": 1587.2,
+    "low": 1513.2,
+    "volume": 24666,
+    "amount": 38197072,
+    "openInterest": 69487
+  },
+  {
+    "date": "2025-11-05",
+    "open": 1539.8,
+    "close": 1563.9,
+    "high": 1570.3,
+    "low": 1522,
+    "volume": 17942,
+    "amount": 27752785,
+    "openInterest": 69462
+  },
+  {
+    "date": "2025-11-04",
+    "open": 1578.5,
+    "close": 1539.8,
+    "high": 1581.5,
+    "low": 1533,
+    "volume": 17714,
+    "amount": 27504192,
+    "openInterest": 69145
+  },
+  {
+    "date": "2025-11-03",
+    "open": 1572.2,
+    "close": 1579,
+    "high": 1618.6,
+    "low": 1560.6,
+    "volume": 19937,
+    "amount": 31700390,
+    "openInterest": 68969
+  },
+  {
+    "date": "2025-10-31",
+    "open": 1610.7,
+    "close": 1572,
+    "high": 1630,
+    "low": 1570.8,
+    "volume": 20095,
+    "amount": 32051846,
+    "openInterest": 69164
+  },
+  {
+    "date": "2025-10-30",
+    "open": 1586.3,
+    "close": 1610.7,
+    "high": 1618.6,
+    "low": 1567.5,
+    "volume": 22367,
+    "amount": 35700067,
+    "openInterest": 69619
+  },
+  {
+    "date": "2025-10-29",
+    "open": 1587.1,
+    "close": 1583.4,
+    "high": 1619.7,
+    "low": 1567.2,
+    "volume": 22582,
+    "amount": 36104506,
+    "openInterest": 68853
+  },
+  {
+    "date": "2025-10-28",
+    "open": 1582,
+    "close": 1586,
+    "high": 1594.3,
+    "low": 1501.6,
+    "volume": 27946,
+    "amount": 43531584,
+    "openInterest": 69968
+  },
+  {
+    "date": "2025-10-27",
+    "open": 1596.4,
+    "close": 1581.6,
+    "high": 1613.4,
+    "low": 1560.2,
+    "volume": 20436,
+    "amount": 32383295,
+    "openInterest": 70283
+  },
+  {
+    "date": "2025-10-24",
+    "open": 1593.3,
+    "close": 1595.1,
+    "high": 1609.8,
+    "low": 1555,
+    "volume": 25125,
+    "amount": 39924550,
+    "openInterest": 71153
+  },
+  {
+    "date": "2025-10-23",
+    "open": 1576.9,
+    "close": 1595,
+    "high": 1624.2,
+    "low": 1564,
+    "volume": 32754,
+    "amount": 52423235,
+    "openInterest": 71784
+  },
+  {
+    "date": "2025-10-22",
+    "open": 1542.7,
+    "close": 1577.9,
+    "high": 1581.6,
+    "low": 1481.2,
+    "volume": 41578,
+    "amount": 64029954,
+    "openInterest": 73246
+  },
+  {
+    "date": "2025-10-21",
+    "open": 1652.5,
+    "close": 1537.8,
+    "high": 1668,
+    "low": 1506.8,
+    "volume": 54509,
+    "amount": 84924476,
+    "openInterest": 75377
+  },
+  {
+    "date": "2025-10-20",
+    "open": 1629.2,
+    "close": 1651.8,
+    "high": 1665.1,
+    "low": 1582,
+    "volume": 30571,
+    "amount": 49810851,
+    "openInterest": 77267
+  },
+  {
+    "date": "2025-10-17",
+    "open": 1754.6,
+    "close": 1629.8,
+    "high": 1762.4,
+    "low": 1617.7,
+    "volume": 52847,
+    "amount": 88357327,
+    "openInterest": 79122
+  },
+  {
+    "date": "2025-10-16",
+    "open": 1697,
+    "close": 1753.2,
+    "high": 1770,
+    "low": 1669.7,
+    "volume": 44029,
+    "amount": 76188477,
+    "openInterest": 79753
+  },
+  {
+    "date": "2025-10-15",
+    "open": 1669.4,
+    "close": 1696.7,
+    "high": 1704.7,
+    "low": 1658.2,
+    "volume": 28617,
+    "amount": 48322814,
+    "openInterest": 80865
+  },
+  {
+    "date": "2025-10-14",
+    "open": 1682.5,
+    "close": 1665,
+    "high": 1713.6,
+    "low": 1640.5,
+    "volume": 41004,
+    "amount": 68694436,
+    "openInterest": 81509
+  },
+  {
+    "date": "2025-10-13",
+    "open": 1624.7,
+    "close": 1683.3,
+    "high": 1707.1,
+    "low": 1624.3,
+    "volume": 28675,
+    "amount": 48199073,
+    "openInterest": 81585
+  },
+  {
+    "date": "2025-10-10",
+    "open": 1666.8,
+    "close": 1620.8,
+    "high": 1679.5,
+    "low": 1614,
+    "volume": 36168,
+    "amount": 59583902,
+    "openInterest": 82156
+  },
+  {
+    "date": "2025-10-09",
+    "open": 1689.4,
+    "close": 1662.9,
+    "high": 1725.7,
+    "low": 1651.2,
+    "volume": 33562,
+    "amount": 56644346,
+    "openInterest": 83205
+  },
+  {
+    "date": "2025-10-08",
+    "open": 1655.5,
+    "close": 1691.5,
+    "high": 1710.8,
+    "low": 1645,
+    "volume": 26963,
+    "amount": 45571408,
+    "openInterest": 83459
+  },
+  {
+    "date": "2025-10-07",
+    "open": 1657.5,
+    "close": 1654,
+    "high": 1673,
+    "low": 1631,
+    "volume": 30176,
+    "amount": 49834984,
+    "openInterest": 83605
+  },
+  {
+    "date": "2025-10-06",
+    "open": 1645.4,
+    "close": 1655.7,
+    "high": 1678,
+    "low": 1628.6,
+    "volume": 29776,
+    "amount": 49328050,
+    "openInterest": 83760
+  }
+]

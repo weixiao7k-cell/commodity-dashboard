@@ -1,0 +1,203 @@
+[
+  {
+    "name": "黄金",
+    "icon": "🥇",
+    "items": [
+      {
+        "code": "fuGC",
+        "name": "COMEX黄金",
+        "exchange": "COMEX",
+        "unit": "美元/盎司",
+        "kline": true,
+        "klineSource": null,
+        "region": "INTL"
+      },
+      {
+        "code": "hf_XAU",
+        "name": "伦敦金现货",
+        "exchange": "OTC",
+        "unit": "美元/盎司",
+        "kline": false,
+        "klineSource": "fuGC",
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "白银",
+    "icon": "🥈",
+    "items": [
+      {
+        "code": "fuSI",
+        "name": "COMEX白银",
+        "exchange": "COMEX",
+        "unit": "美元/盎司",
+        "kline": true,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "铜",
+    "icon": "🟤",
+    "items": [
+      {
+        "code": "fuHG",
+        "name": "COMEX铜",
+        "exchange": "COMEX",
+        "unit": "美元/磅",
+        "kline": true,
+        "klineSource": null,
+        "region": "INTL"
+      },
+      {
+        "code": "hf_CAD",
+        "name": "LME铜",
+        "exchange": "LME",
+        "unit": "美元/吨",
+        "kline": false,
+        "klineSource": "fuHG",
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "铝",
+    "icon": "⬜",
+    "items": [
+      {
+        "code": "hf_AHD",
+        "name": "LME铝",
+        "exchange": "LME",
+        "unit": "美元/吨",
+        "kline": false,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "锌",
+    "icon": "⚫",
+    "items": [
+      {
+        "code": "hf_ZSD",
+        "name": "LME锌",
+        "exchange": "LME",
+        "unit": "美元/吨",
+        "kline": false,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "镍",
+    "icon": "⚪",
+    "items": [
+      {
+        "code": "hf_NID",
+        "name": "LME镍",
+        "exchange": "LME",
+        "unit": "美元/吨",
+        "kline": false,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "锡",
+    "icon": "🔹",
+    "items": [
+      {
+        "code": "hf_SND",
+        "name": "LME锡",
+        "exchange": "LME",
+        "unit": "美元/吨",
+        "kline": false,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "铅",
+    "icon": "▪️",
+    "items": [
+      {
+        "code": "hf_PBD",
+        "name": "LME铅",
+        "exchange": "LME",
+        "unit": "美元/吨",
+        "kline": false,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "铂金",
+    "icon": "💎",
+    "items": [
+      {
+        "code": "fuPL",
+        "name": "NYMEX铂金",
+        "exchange": "NYMEX",
+        "unit": "美元/盎司",
+        "kline": true,
+        "klineSource": null,
+        "region": "INTL"
+      },
+      {
+        "code": "hf_XPT",
+        "name": "伦敦铂金",
+        "exchange": "OTC",
+        "unit": "美元/盎司",
+        "kline": false,
+        "klineSource": "fuPL",
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "钯金",
+    "icon": "💠",
+    "items": [
+      {
+        "code": "fuPA",
+        "name": "NYMEX钯金",
+        "exchange": "NYMEX",
+        "unit": "美元/盎司",
+        "kline": true,
+        "klineSource": null,
+        "region": "INTL"
+      }
+    ]
+  },
+  {
+    "name": "原油",
+    "icon": "🛢️",
+    "items": [
+      {
+        "code": "fuCL",
+        "name": "WTI原油",
+        "exchange": "NYMEX",
+        "unit": "美元/桶",
+        "kline": true,
+        "klineSource": null,
+        "region": "INTL"
+      },
+      {
+        "code": "hf_OIL",
+        "name": "布伦特原油",
+        "exchange": "ICE",
+        "unit": "美元/桶",
+        "kline": false,
+        "klineSource": "fuCL",
+        "region": "INTL"
+      }
+    ]
+  }
+]

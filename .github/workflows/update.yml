@@ -1,0 +1,44 @@
+name: Update Data & Deploy
+
+on:
+  schedule:
+    # 每小时整点运行（UTC时间，=北京时间整点+0）
+    - cron: '0 * * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch latest market data
+        run: node fetch_cloud.js
+
+      - name: Build
+        run: node build.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ js/data-embed.js dist/
+          git diff --staged --quiet || git commit -m "auto-update: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist

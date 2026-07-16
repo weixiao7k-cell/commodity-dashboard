@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>大宗商品数据监控面板 | Commodity Monitor</title>
+    <link rel="stylesheet" href="css/style.css?v=11">
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="app-header">
+        <button class="sidebar-toggle" id="sidebarToggle" title="商品列表">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+        <div class="header-left">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">大宗商品监控面板</span>
+            </div>
+            <div class="market-status" id="marketStatus">
+                <span class="status-dot"></span>
+                <span class="status-text">真实行情数据 · 离线可访问</span>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="ticker-bar" id="tickerBar">
+                <!-- 滚动行情条由JS填充 -->
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="update-badge" id="updateBadge" title="数据最后更新时间">
+                <span class="update-dot"></span>
+                <span class="update-label">更新于</span>
+                <span class="update-time" id="updateTime">--:--</span>
+            </div>
+            <div class="clock" id="clock">--:--:--</div>
+            <button class="btn-refresh" id="btnRefresh" title="刷新数据">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/>
+                    <path d="M21 3v5h-5"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- 手机端侧边栏遮罩 -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- 主体布局 -->
+    <div class="app-body">
+        <!-- 左侧商品列表 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>商品列表</h3>
+                <input type="text" class="search-input" id="commoditySearch" placeholder="搜索商品...">
+            </div>
+            <div class="commodity-list" id="commodityList">
+                <!-- 商品列表由JS填充 -->
+            </div>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 实时数据展示区 -->
+            <section class="data-cards-section">
+                <div class="section-title">
+                    <h2>实时行情</h2>
+                    <span class="section-subtitle" id="currentCommodityName">黄金 (XAU)</span>
+                </div>
+                <div class="data-cards" id="dataCards">
+                    <!-- 数据卡片由JS填充 -->
+                </div>
+            </section>
+
+            <!-- 技术指标（价格走势图 + 副图） -->
+            <section class="sub-charts-section">
+                <div class="section-title full-width" style="margin-bottom: 0;">
+                    <h2 style="font-size: 14px;">技术指标</h2>
+                </div>
+
+                <!-- 价格走势图：技术指标下、MACD前 -->
+                <div class="sub-chart-wrapper main-price-wrapper full-width">
+                    <div class="sub-chart-header">
+                        <span class="indicator-label">📊 价格走势 · <span id="chartSubtitle">日K线</span></span>
+                        <span class="indicator-values" id="priceValues">--</span>
+                    </div>
+                    <div class="chart-toolbar compact">
+                        <div class="toolbar-left">
+                            <div class="period-switcher" id="periodSwitcher">
+                                <button class="period-btn" data-period="1m">分时</button>
+                                <button class="period-btn active" data-period="1d">日K</button>
+                                <button class="period-btn" data-period="1w">周K</button>
+                                <button class="period-btn" data-period="1M">月K</button>
+                                <button class="period-btn" data-period="1q">季K</button>
+                                <button class="period-btn" data-period="1y">年K</button>
+                            </div>
+                            <div class="range-switcher" id="rangeSwitcher">
+                                <button class="range-btn" data-range="1m">1月</button>
+                                <button class="range-btn" data-range="3m">3月</button>
+                                <button class="range-btn" data-range="6m">6月</button>
+                                <button class="range-btn" data-range="1y">1年</button>
+                                <button class="range-btn" data-range="3y">3年</button>
+                                <button class="range-btn active" data-range="all">全部</button>
+                            </div>
+                        </div>
+                        <div class="toolbar-right">
+                            <label class="indicator-toggle">
+                                <input type="checkbox" id="toggleMA" checked>
+                                <span>均线</span>
+                            </label>
+                            <label class="indicator-toggle">
+                                <input type="checkbox" id="toggleBoll" checked>
+                                <span>布林带</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="chart-container main-chart" id="mainChart"></div>
+                </div>
+
+                <!-- MACD -->
+                <div class="sub-chart-wrapper">
+                    <div class="sub-chart-header">
+                        <span class="indicator-label">MACD (12,26,9)</span>
+                        <span class="indicator-values" id="macdValues">DIF: -- DEA: -- MACD: --</span>
+                    </div>
+                    <div class="chart-container sub-chart" id="macdChart"></div>
+                </div>
+
+                <!-- RSI -->
+                <div class="sub-chart-wrapper">
+                    <div class="sub-chart-header">
+                        <span class="indicator-label">RSI (14)</span>
+                        <span class="indicator-values" id="rsiValues">RSI6: -- RSI12: -- RSI24: --</span>
+                    </div>
+                    <div class="chart-container sub-chart" id="rsiChart"></div>
+                </div>
+            </section>
+
+            <!-- 基本面分析区 -->
+            <section class="fundamental-section">
+                <div class="section-title">
+                    <h2>基本面分析</h2>
+                </div>
+                <div class="fundamental-grid">
+                    <div class="fundamental-card">
+                        <div class="fund-card-header">
+                            <span class="fund-icon">📦</span>
+                            <span class="fund-title">库存数据</span>
+                        </div>
+                        <div class="fund-card-body" id="inventoryData"></div>
+                    </div>
+                    <div class="fundamental-card">
+                        <div class="fund-card-header">
+                            <span class="fund-icon">🏭</span>
+                            <span class="fund-title">产量数据</span>
+                        </div>
+                        <div class="fund-card-body" id="productionData"></div>
+                    </div>
+                    <div class="fundamental-card">
+                        <div class="fund-card-header">
+                            <span class="fund-icon">🚢</span>
+                            <span class="fund-title">进出口数据</span>
+                        </div>
+                        <div class="fund-card-body" id="tradeData"></div>
+                    </div>
+                    <div class="fundamental-card">
+                        <div class="fund-card-header">
+                            <span class="fund-icon">💲</span>
+                            <span class="fund-title">美元指数相关性</span>
+                        </div>
+                        <div class="fund-card-body">
+                            <div class="chart-container mini-chart" id="usdChart"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 趋势预判区 -->
+            <section class="prediction-section">
+                <div class="section-title">
+                    <h2>综合趋势预判</h2>
+                    <span class="prediction-confidence" id="predictionConfidence">置信度: --</span>
+                </div>
+                <div class="prediction-panel" id="predictionPanel">
+                    <div class="prediction-gauge-wrapper">
+                        <div class="chart-container gauge-chart" id="gaugeChart"></div>
+                        <div class="prediction-verdict" id="predictionVerdict">
+                            <span class="verdict-text">分析中...</span>
+                        </div>
+                    </div>
+                    <div class="prediction-signals">
+                        <div class="signal-group">
+                            <h4>技术面信号</h4>
+                            <div class="signal-list" id="technicalSignals"></div>
+                        </div>
+                        <div class="signal-group">
+                            <h4>基本面信号</h4>
+                            <div class="signal-list" id="fundamentalSignals"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- 底部状态栏 -->
+    <footer class="app-footer">
+        <div class="footer-left">
+            <span class="data-source-label">数据来源: 腾讯自选股 (westock-data) | COMEX/NYMEX/LME/ICE 实时行情</span>
+        </div>
+        <div class="footer-right">
+            <span class="update-time" id="updateTime">最后更新: --</span>
+        </div>
+    </footer>
+
+    <!-- 加载遮罩 -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">正在加载行情数据...</div>
+    </div>
+
+    <script src="js/data-embed.js?v=11"></script>
+    <script src="js/data.js?v=11"></script>
+    <script src="js/indicators.js?v=11"></script>
+    <script src="js/fundamentals.js?v=11"></script>
+    <script src="js/prediction.js?v=11"></script>
+    <script src="js/charts.js?v=11"></script>
+    <script src="js/app.js?v=11"></script>
+</body>
+</html>
