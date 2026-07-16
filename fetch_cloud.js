@@ -160,7 +160,7 @@ async function fetchKlineEastmoney(secid, period) {
                 volume: parseInt(f[5]) || 0,
                 amount: parseFloat(f[6]) || 0,
             };
-        }).filter(d => d.close > 0);
+        }).filter(d => d.close > 0).reverse(); // 东方财富返回旧在前，反转为最新在前（和腾讯API一致，data.js会再reverse成旧在前显示）
     } catch(e) {
         console.warn(`  ✗ ${secid} ${period}: ${e.message}`);
         return [];
