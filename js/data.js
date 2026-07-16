@@ -96,7 +96,12 @@ const CommodityData = (function () {
 
         let klineCode = code;
         if (config && config.kline === false && config.klineSource) {
-            klineCode = config.klineSource;
+            // em:开头的klineSource表示东方财富数据，K线存在自己的code下
+            if (config.klineSource.startsWith('em:')) {
+                klineCode = code; // K线数据存在 hf_AHD_day 等key下
+            } else {
+                klineCode = config.klineSource;
+            }
         }
 
         const periodMap = {

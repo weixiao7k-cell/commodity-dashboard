@@ -13,11 +13,11 @@ const COMMODITIES = [
     { code: 'fuSI',   name: 'COMEX白银',  exchange: 'COMEX', unit: '美元/盎司', group: '白银', icon: '🥈', kline: true,  decimals: 3 },
     { code: 'fuHG',   name: 'COMEX铜',    exchange: 'COMEX', unit: '美元/磅',  group: '铜',   icon: '🟤', kline: true,  decimals: 3 },
     { code: 'hf_CAD', name: 'LME铜',      exchange: 'LME',   unit: '美元/吨',  group: '铜',   icon: '🟤', kline: false, decimals: 2, klineSource: 'fuHG' },
-    { code: 'hf_AHD', name: 'LME铝',      exchange: 'LME',   unit: '美元/吨',  group: '铝',   icon: '⬜', kline: false, decimals: 2 },
-    { code: 'hf_ZSD', name: 'LME锌',      exchange: 'LME',   unit: '美元/吨',  group: '锌',   icon: '⚫', kline: false, decimals: 2 },
-    { code: 'hf_NID', name: 'LME镍',      exchange: 'LME',   unit: '美元/吨',  group: '镍',   icon: '⚪', kline: false, decimals: 2 },
-    { code: 'hf_SND', name: 'LME锡',      exchange: 'LME',   unit: '美元/吨',  group: '锡',   icon: '🔹', kline: false, decimals: 2 },
-    { code: 'hf_PBD', name: 'LME铅',      exchange: 'LME',   unit: '美元/吨',  group: '铅',   icon: '▪️', kline: false, decimals: 2 },
+    { code: 'hf_AHD', name: 'LME铝',      exchange: 'LME',   unit: '美元/吨',  group: '铝',   icon: '⬜', kline: false, decimals: 2, klineSource: 'em:113.ALM' },
+    { code: 'hf_ZSD', name: 'LME锌',      exchange: 'LME',   unit: '美元/吨',  group: '锌',   icon: '⚫', kline: false, decimals: 2, klineSource: 'em:113.ZNM' },
+    { code: 'hf_NID', name: 'LME镍',      exchange: 'LME',   unit: '美元/吨',  group: '镍',   icon: '⚪', kline: false, decimals: 2, klineSource: 'em:113.NIM' },
+    { code: 'hf_SND', name: 'LME锡',      exchange: 'LME',   unit: '美元/吨',  group: '锡',   icon: '🔹', kline: false, decimals: 2, klineSource: 'em:113.SNM' },
+    { code: 'hf_PBD', name: 'LME铅',      exchange: 'LME',   unit: '美元/吨',  group: '铅',   icon: '▪️', kline: false, decimals: 2, klineSource: 'em:113.PBM' },
     { code: 'fuPL',   name: 'NYMEX铂金',  exchange: 'NYMEX', unit: '美元/盎司', group: '铂金', icon: '💎', kline: true,  decimals: 2 },
     { code: 'hf_XPT', name: '伦敦铂金',    exchange: 'OTC',  unit: '美元/盎司', group: '铂金', icon: '💎', kline: false, decimals: 2, klineSource: 'fuPL' },
     { code: 'fuPA',   name: 'NYMEX钯金',  exchange: 'NYMEX', unit: '美元/盎司', group: '钯金', icon: '💠', kline: true,  decimals: 2 },
@@ -133,12 +133,46 @@ async function fetchKline(code, period) {
     return klineData;
 }
 
+// 获取K线数据 - 东方财富API（用于沪市主连合约）
+async function fetchKlineEastmoney(secid, period) {
+    const kltMap = { day: 101, week: 102, month: 103 };
+    const klt = kltMap[period] || 101;
+    const url = `https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=${secid}&fields1=f1,f2,f3,f4,f5,f6&fields2=f51,f52,f53,f54,f55,f56,f57,f58&klt=${klt}&fqt=0&end=20500101&lmt=200`;
+    
+    try {
+        const resp = await fetch(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'Referer': 'https://quote.eastmoney.com/',
+            },
+        });
+        const json = await resp.json();
+        if (!json.data || !json.data.klines) return [];
+        
+        return json.data.klines.map(line => {
+            const f = line.split(',');
+            return {
+                date: f[0],
+                open: parseFloat(f[1]) || 0,
+                close: parseFloat(f[2]) || 0,
+                high: parseFloat(f[3]) || 0,
+                low: parseFloat(f[4]) || 0,
+                volume: parseInt(f[5]) || 0,
+                amount: parseFloat(f[6]) || 0,
+            };
+        }).filter(d => d.close > 0);
+    } catch(e) {
+        console.warn(`  ✗ ${secid} ${period}: ${e.message}`);
+        return [];
+    }
+}
+
 async function main() {
     console.log('=== 获取实时行情 ===');
     const quotes = await fetchQuotes();
     console.log(`行情: ${Object.keys(quotes).length - 1}个品种, 时间: ${quotes._timestamp}`);
     
-    // 读取已有的data-embed.js，保留K线数据（K线不需要每小时更新）
+    // 读取已有的data-embed.js，保留K线数据
     const embedPath = path.join(__dirname, 'js', 'data-embed.js');
     let existingData = { groups: [], quotes: {}, kline: {}, minute: {} };
     if (fs.existsSync(embedPath)) {
@@ -149,26 +183,49 @@ async function main() {
         } catch(e) { console.warn('读取已有data-embed失败:', e.message); }
     }
     
-    // 合并：用新行情数据，保留旧K线数据
+    // 保留已有K线数据
+    var kline = existingData.kline || {};
+    
+    // 获取LME金属的K线数据（用东方财富沪市主连）
+    console.log('\n=== 获取LME金属K线（沪市主连）===');
+    for (const cfg of COMMODITIES) {
+        if (cfg.klineSource && cfg.klineSource.startsWith('em:')) {
+            var emSecid = cfg.klineSource.substring(3);
+            for (const period of ['day', 'week', 'month']) {
+                try {
+                    var data = await fetchKlineEastmoney(emSecid, period);
+                    if (data.length > 0) {
+                        kline[cfg.code + '_' + period] = data;
+                        console.log(`  ✓ ${cfg.code} ${period}: ${data.length}条 (${emSecid})`);
+                    }
+                } catch(e) {
+                    console.warn(`  ✗ ${cfg.code} ${period}: ${e.message}`);
+                }
+            }
+        }
+    }
+    
+    // 合并
     const embedded = {
         groups: existingData.groups || [],
-        quotes: quotes,  // 新行情
-        kline: existingData.kline || {},  // 保留旧K线
+        quotes: quotes,
+        kline: kline,
         minute: existingData.minute || {},
     };
     
-    // 写入data/quotes.json（供generate-embed.js读取）
+    // 写入data/quotes.json
     const dataDir = path.join(__dirname, 'data');
     if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
     fs.writeFileSync(path.join(dataDir, 'quotes.json'), JSON.stringify(quotes, null, 2));
     
-    // 同时写入data-embed.js（直接更新，不依赖generate-embed.js）
+    // 写入data-embed.js
     let content = '/** 嵌入式数据 - 自动生成 */\n';
     content += '/* 更新时间: ' + quotes._timestamp + ' */\n';
     content += 'var EMBEDDED_DATA = ' + JSON.stringify(embedded) + ';\n';
     fs.writeFileSync(embedPath, content, 'utf8');
     console.log('\n✓ data-embed.js 更新完成');
     console.log('  快照时间: ' + quotes._timestamp);
+    console.log('  K线数据集: ' + Object.keys(kline).length);
     
     return quotes._timestamp;
 }
