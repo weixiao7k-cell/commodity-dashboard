@@ -10,7 +10,7 @@
     "change": 0,
     "changePercent": 0,
     "volume": 137070,
-    "amount": 16177824016.5,
+    "amount": 16177892551.5,
     "currency": "2026-09-25 17:00:00",
     "updateTime": "0",
     "isDelayed": true,
@@ -54,7 +54,7 @@
     "change": 0,
     "changePercent": 0,
     "volume": 36179,
-    "amount": 2076416034,
+    "amount": 2076434123.5,
     "currency": "2026-09-25 17:00:00",
     "updateTime": "0",
     "isDelayed": true,
@@ -76,7 +76,7 @@
     "change": 0,
     "changePercent": 0,
     "volume": 25665,
-    "amount": 683048028,
+    "amount": 683060860.5,
     "currency": "2026-09-25 17:00:00",
     "updateTime": "0",
     "isDelayed": true,
@@ -329,5 +329,5 @@
     "klineSource": "fuCL",
     "decimals": 2
   },
-  "_timestamp": "2026-09-27T18:41:20.895Z"
+  "_timestamp": "2026-09-27T21:40:34.385Z"
 }
